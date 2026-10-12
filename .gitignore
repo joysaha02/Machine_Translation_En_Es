@@ -1,0 +1,16 @@
+# Training outputs (too large for GitHub; regenerate with `python train.py`)
+opus_books_weights_*/
+tokenizer_*.json
+runs/
+*.log
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

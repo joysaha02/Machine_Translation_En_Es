@@ -1,0 +1,14 @@
+## Tested with Python 3.12 and torch 2.9 (macOS) / torch 2.14 + CUDA 13 (Linux, RTX 5090)
+## On Linux, the default pip torch wheel includes CUDA support
+
+torch>=2.1
+datasets>=3.0,<4
+huggingface-hub<1.0
+tokenizers
+torchmetrics
+tensorboard
+tqdm
+
+## Optional: only for the notebooks in notebooks/
+# jupyter
+# altair
